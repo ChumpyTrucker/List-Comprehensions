@@ -13,7 +13,7 @@ my_listS = {char for char in 'hello'}
 my_listS2 = {num for num in range(0,1000)}
 my_listS3 = {num**2 for num in range(0,100)}
 my_listS4 = {even**2 for even in range(0,100) if even %2 ==0}
-my_listS5 = {odd**2 for odd in range(0,100) if odd %2 }
+my_listS5 = {odd**2 for odd in range(0,109) if odd %2 }
 
 
 #Dictionary comprenhensen
