@@ -1,7 +1,7 @@
 # List-Comprehensions
 #List, set, dictionary comprenhensen
 my_list = [char for char in 'hello']
-my_list2 = [num for num in range(0,1000)]
+my_list2 = [num for num in range(0,10000)]
 my_list3 = [num**2 for num in range(0,100)]
 my_list4 = [even**2 for even in range(0,100) if even %2 ==0]
 my_list5 = [odd**2 for odd in range(0,100) if odd %2 ]
